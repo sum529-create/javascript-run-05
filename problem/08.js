@@ -12,6 +12,22 @@
  */
 
 // TODO: 아래 코드를 작성하세요.
-class MathHelper {}
+class MathHelper {
+  static add(num1, num2) {
+    return num1 + num2;
+  }
+  static subtract(num1, num2) {
+    return num1 - num2;
+  }
+  static multiply(num1, num2) {
+    return num1 * num2;
+  }
+  static divide(num1, num2) {
+    return num1 / num2;
+  }
+  static remainder(num1, num2) {
+    return num1 % num2;
+  }
+}
 
 export { MathHelper };
